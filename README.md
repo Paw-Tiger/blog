@@ -1,3 +1,12 @@
+
+~~~
+1) git clone https://github.com/Paw-Tiger/blog.git
+2) composer install
+~~~
+3) импортировать базу [/base mysql/blog.sql] (#)
+изменить настройки [/config/db.php] (https://github.com/Paw-Tiger/blog/blob/master/config/db.php)
+
+
 Yii 2 Basic Project Template
 ============================
 
