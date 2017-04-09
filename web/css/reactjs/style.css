@@ -1,0 +1,790 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0; }
+
+body {
+  font-family: roboto_slabregular, Tahoma, Helvetica;
+  font-size: 18px; }
+
+.clear {
+  clear: both; }
+
+#container {
+  min-width: 960px;
+  max-width: 100%;
+  margin: 0 auto; }
+  #container p {
+    font-size: 20px;
+    color: #2d3743;
+    font-family: robotolight;
+    margin: 17px 0; }
+    #container p span {
+      font-family: robotoblack; }
+  #container .options {
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    -o-animation-duration: 2.5s;
+    -ms-animation-duration: 2.5s;
+    animation-duration: 2.5s; }
+  #container .wrap {
+    width: 960px;
+    margin: 0 auto; }
+  #container .top-menu {
+    background: #f0f0f0;
+    z-index: 100;
+    position: relative; }
+    #container .top-menu ul {
+      list-style: none;
+      margin: 0 47px;
+      overflow: hidden;
+      padding: 6px 0 8px 0; }
+      #container .top-menu ul li {
+        float: left;
+        margin: 0 180px 0 0; }
+        #container .top-menu ul li a {
+          font-size: 20px;
+          color: #2d3743;
+          font-family: robotolight;
+          text-decoration: none; }
+      #container .top-menu ul li:last-child {
+        margin: 0; }
+  #container .header {
+    background: url("../../images/reactjs/header-bg.jpg") #f2f4f7 no-repeat center; }
+    #container .header h1 {
+      font-size: 50px;
+      line-height: 62px;
+      font-family: roboto_slabbold;
+      color: #fff;
+      text-align: center;
+      padding: 25px 0 0 0;
+      font-weight: normal; }
+      #container .header h1 span {
+        display: inline-block;
+        padding: 17px 25px; }
+      #container .header h1 .red {
+        background: #e3000b;
+		color: #fff;
+        font-size: 64px;
+        text-transform: uppercase;
+        margin: 5px 0 0 0; }
+      #container .header h1 .blue {
+        background: #00608d;
+        font-size: 50px;
+        padding: 0 25px 5px 25px; }
+    #container .header .video #player {
+      margin: 40px 0 20px 0;
+      width: 960px;
+      height: 540px;
+      display: block; }
+    #container .header .video p {
+      text-align: center;
+      color: #fff;
+      font-size: 30px;
+      font-weight: normal; }
+      #container .header .video p span {
+        font-family: robotoblack; }
+    #container .header .video .form {
+      padding: 0 0 70px 0; }
+      #container .header .video .form input {
+        width: 330px;
+        text-align: center;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #2e2724;
+        padding: 7px 0;
+        margin: 35px 22px 0 0; }
+      #container .header .video .form input:first-child {
+        margin-left: 135px; }
+      #container .header .video .form button {
+        width: 330px;
+        margin: 0 auto;
+        display: block;
+        background: #fdb913;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: robotomedium;
+        font-size: 18px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        padding: 10px 0;
+        margin: 35px auto 0;
+        cursor: pointer;
+        -webkit-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.23);
+        -moz-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.23);
+        box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.23); }
+    #container .header .form {
+      padding: 0 0 35px 0;
+      margin: 56px 0 0 0; }
+      #container .header .form input {
+        width: 281px;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        background: none;
+        font-size: 24px;
+        font-family: robotolight;
+        color: #fff;
+        font-weight: normal;
+        padding: 6px 0 9px 25px;
+        margin: 14px 40px 0 0; }
+      #container .header .form .mail {
+        width: 324px;
+        margin: 14px 35px 0 0; }
+      #container .header .form button {
+        background: url("../../images/reactjs/check.png") no-repeat 15px center #7eca0d;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 14px 0 14px 25px;
+        cursor: pointer;
+        position: relative;
+        top: -5px;
+        width: 280px; }
+	  #container .header .form button:hover {
+        background-color: #aaee00;
+        }
+  #container .what {
+    padding: 0 0 0 0; }
+    #container .what h2 {
+      text-align: center;
+      color: #2d3743;
+      font-size: 40px;
+      margin: 70px 0 25px 0;
+      font-family: roboto_slabbold;
+      font-weight: normal; }
+      #container .what h2 span {
+        color: #fff;
+        display: inline-block;
+        background: #007cc0;
+        padding: 6px 15px;
+        font-family: roboto_slabbold; }
+    #container .what p {
+      font-size: 20px;
+      color: #2d3743;
+      font-family: robotolight;
+      margin: 17px 0; }
+      #container .what p span {
+        font-family: robotoblack; }
+    #container .what .block_icons {
+      overflow: hidden; }
+      #container .what .block_icons .icon {
+        float: left;
+        width: 260px;
+        text-align: center;
+        margin: 20px 90px 20px 0; }
+        #container .what .block_icons .icon p {
+          font-family: robotolight_italic;
+          font-size: 20px;
+          margin: 0 0 0 0; }
+      #container .what .block_icons .icon:last-child {
+        margin-right: 0; }
+    #container .what .ico {
+      width: 260px;
+      text-align: center;
+      margin: 20px auto 20px; }
+      #container .what .ico p {
+        font-family: robotolight_italic;
+        font-size: 20px;
+        margin: 0 0 0 0; }
+    #container .what .img_left {
+      overflow: hidden;
+      margin: 0 0 30px; }
+      #container .what .img_left img {
+        float: left;
+        margin: 0 53px 0 0; }
+      #container .what .img_left p {
+        font-family: robotolight_italic;
+        margin: 0;
+        line-height: 23px; }
+        #container .what .img_left p span {
+          font-family: robotoblack;
+          font-style: italic; }
+    #container .what .img_right {
+      overflow: hidden;
+      margin: 0 0 30px; }
+      #container .what .img_right img {
+        float: right;
+        margin: 0 0 0 53px; }
+      #container .what .img_right p {
+        font-family: robotolight_italic;
+        margin: 0;
+        line-height: 23px; }
+        #container .what .img_right p span {
+          font-family: robotoblack;
+          font-style: italic; }
+  #container .gray {
+    background: url("../../images/reactjs/bg_gray.jpg") center no-repeat;
+    padding: 95px 0 95px 0; }
+    #container .gray p {
+      color: #fff;
+      font-size: 30px;
+      font-family: robotolight;
+      text-align: center;
+      line-height: 35px; }
+      #container .gray p span {
+        font-family: robotoblack; }
+  #container .framework h2 {
+    text-align: center;
+    color: #2d3743;
+    font-size: 40px;
+    margin: 70px 0 25px 0;
+    font-family: roboto_slabbold;
+    font-weight: normal; }
+    #container .framework h2 span {
+      color: #fff;
+      display: inline-block;
+      background: #007cc0;
+      padding: 6px 15px;
+      font-family: roboto_slabbold; }
+  #container .framework img {
+    text-align: center;
+    display: block;
+    margin: 50px auto; }
+  #container .preimushestva h3 {
+    text-align: center;
+    color: #2d3743;
+    font-size: 40px;
+    margin: 70px 0 25px 0;
+    font-family: roboto_slabbold;
+    font-weight: normal; }
+    #container .preimushestva h3 span {
+      color: #fff;
+      display: inline-block;
+      background: #007cc0;
+      padding: 6px 15px;
+      font-family: roboto_slabbold; }
+  #container .preimushestva .block {
+    overflow: hidden;
+    margin: 0 0 20px 0; }
+    #container .preimushestva .block img {
+      float: left;
+      margin: 7px 0 0 0; }
+    #container .preimushestva .block span {
+      font-size: 50px;
+      color: #007fbd;
+      font-family: robotolight;
+      display: block;
+      float: left;
+      margin: -8px 15px 0 65px; }
+      #container .preimushestva .block span .slash {
+        margin: 0 0 0 -10px;
+        display: inline-block;
+        float: none; }
+    #container .preimushestva .block p {
+      margin: 0 0 0 194px; }
+  #container .course {
+    background: url("../../images/reactjs/course-bg.jpg") center no-repeat; }
+    #container .course .wrap {
+      background: url("../../images/reactjs/disc.png") bottom center no-repeat;
+      padding: 50px 0 730px; }
+    #container .course p {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      text-align: center;
+      margin: 0; }
+      #container .course p span {
+        display: block;
+        font-size: 75px;
+        color: #fff;
+        margin: 1px 0 0 0; }
+      #container .course p .last {
+        font-size: 53px;
+        margin: 0; }
+  #container .plus .title {
+    text-align: center;
+    color: #2d3743;
+    font-size: 40px;
+    margin: 70px 0 25px 0;
+    font-family: roboto_slabbold;
+    font-weight: normal; }
+    #container .plus .title span {
+      color: #fff;
+      display: inline-block;
+      background: #007cc0;
+      padding: 6px 15px;
+      font-family: roboto_slabbold; }
+  #container .plus .wrap_check, #container .plus .wrap_result {
+    margin: 25px 0 0 0;
+    overflow: hidden; }
+    #container .plus .wrap_check .check, #container .plus .wrap_check .result, #container .plus .wrap_result .check, #container .plus .wrap_result .result {
+      height: 176px;
+      float: left;
+      background: #f2f4f7;
+      width: 467.5px;
+      margin: 0 25px 0 0; }
+      #container .plus .wrap_check .check p, #container .plus .wrap_check .result p, #container .plus .wrap_result .check p, #container .plus .wrap_result .result p {
+        background: url("../../images/reactjs/check2.png") 35px center no-repeat;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -1px;
+        font-family: robotolight_italic;
+        padding: 0 0 0 103px; }
+      #container .plus .wrap_check .check .top, #container .plus .wrap_check .result .top, #container .plus .wrap_result .check .top, #container .plus .wrap_result .result .top {
+        margin-top: 50px; }
+    #container .plus .wrap_check .check:last-child, #container .plus .wrap_check .result:last-child, #container .plus .wrap_result .check:last-child, #container .plus .wrap_result .result:last-child {
+      margin: 0; }
+  #container .plus .one_check, #container .plus .result_one {
+    background: #f2f4f7;
+    width: 467.5px;
+    margin: 0 auto 25px; }
+    #container .plus .one_check p, #container .plus .result_one p {
+      background: url("../../images/reactjs/check2.png") 35px center no-repeat;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: -1px;
+      font-family: robotolight_italic;
+      padding: 20px 0 23px 103px; }
+  #container .plus .wrap_result .result {
+    height: auto; }
+    #container .plus .wrap_result .result p {
+      background: none;
+      padding: 40px 0 40px 130px;
+      font-family: robotobold;
+      font-size: 20px;
+      font-style: italic;
+      margin: 0; }
+    #container .plus .wrap_result .result .one {
+      background: url("../../images/reactjs/icons.png") 50px center no-repeat; }
+    #container .plus .wrap_result .result .two {
+      background: url("../../images/reactjs/icons2.png") 45px center no-repeat; }
+    #container .plus .wrap_result .result .three {
+      background: url("../../images/reactjs/icons3.png") 40px center no-repeat; }
+    #container .plus .wrap_result .result .four {
+      background: url("../../images/reactjs/icons4.png") 45px center no-repeat; }
+  #container .plus .result_one p {
+    background: url("../../images/reactjs/icons5.png") 85px center no-repeat;
+    padding: 40px 0 40px 170px;
+    font-family: robotobold;
+    font-size: 20px;
+    font-style: italic; }
+  #container .lessons {
+    background: #f2f4f7;
+    margin: 40px 0 0 0; }
+    #container .lessons .title {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      color: #2d3743;
+      text-align: center;
+      padding: 70px 0 25px 0;
+      font-weight: normal; }
+    #container .lessons .lesson {
+      overflow: hidden;
+      border-bottom: 1px solid #2d3743;
+      padding: 0 0 20px 0;
+      margin: 0 0 45px 0; }
+      #container .lessons .lesson img {
+        display: block;
+        margin: 0 auto; }
+      #container .lessons .lesson .zag {
+        text-align: center;
+        font-size: 30px;
+        font-family: roboto_slabbold;
+        color: #2d3743;
+        text-align: center;
+        font-weight: normal;
+        margin: 10px 0 25px 0; }
+      #container .lessons .lesson ul {
+        list-style: none;
+        overflow: hidden;
+        float: left;
+        width: 46%; }
+        #container .lessons .lesson ul li {
+          display: block;
+          font-size: 18px;
+          line-height: 22px;
+          letter-spacing: -0.8px;
+          font-family: robotolight_italic;
+          color: #2d3743;
+          margin: 0 0 20px 0; }
+      #container .lessons .lesson ul:last-child {
+        float: right; }
+    #container .lessons .lesson:last-child {
+      border-bottom: none;
+      padding: 0 0 50px 0;
+      margin: 0; }
+  #container .bonus {
+    padding: 60px 0 0 0; }
+    #container .bonus .title {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      color: #2d3743;
+      text-align: center;
+      margin: 0 0 25px 0;
+      font-weight: normal; }
+      #container .bonus .title span {
+        color: #fff;
+        display: inline-block;
+        background: #007cc0;
+        padding: 6px 15px;
+        font-family: roboto_slabbold; }
+    #container .bonus .block_bonus {
+      overflow: hidden;
+      border-bottom: 1px solid #e5f2f8;
+      padding: 0 0 30px 0;
+      margin: 0 0 45px 0; }
+      #container .bonus .block_bonus img {
+        float: left; }
+      #container .bonus .block_bonus .text_bonus {
+        margin: 60px 0 0 0; }
+        #container .bonus .block_bonus .text_bonus .title_bonus {
+          margin: 0; }
+          #container .bonus .block_bonus .text_bonus .title_bonus span {
+            color: #fff;
+            display: inline-block;
+            background: #007cc0;
+            padding: 4px 15px;
+            font-family: roboto_slabbold;
+            font-size: 25px;
+            font-weight: normal; }
+        #container .bonus .block_bonus .text_bonus .zag {
+          font-size: 25px;
+          font-family: roboto_slabbold;
+          font-size: 25px;
+          font-weight: normal;
+          margin: 0;
+          color: #2d3743; }
+        #container .bonus .block_bonus .text_bonus .text {
+          font-size: 20px;
+          letter-spacing: -0.8px;
+          line-height: 26px;
+          color: #2d3743;
+          font-family: robotolight_italic; }
+          #container .bonus .block_bonus .text_bonus .text span {
+            font-family: robotoblack;
+            font-style: italic; }
+      #container .bonus .block_bonus .text_bonus2 {
+        margin: 70px 0 0 0; }
+      #container .bonus .block_bonus .text_bonus3 {
+        margin: 80px 0 0 0; }
+    #container .bonus .special_bonus img {
+      margin: 18px 0 0 0; }
+    #container .bonus .special_bonus .text_bonus {
+      margin: 0 0 0 0; }
+      #container .bonus .special_bonus .text_bonus .title_bonus span {
+        color: #fff;
+        display: inline-block;
+        background: #fd4142;
+        padding: 4px 15px;
+        font-family: roboto_slabbold;
+        font-size: 25px;
+        font-weight: normal; }
+    #container .bonus .last {
+      border-bottom: none; }
+  #container .course2 {
+    background: transparent url("../../images/reactjs/course-bg2.jpg") no-repeat scroll center center;
+    margin: 40px 0; }
+    #container .course2 .wrap {
+      background: transparent url("../../images/reactjs/disc2.png") no-repeat scroll center bottom;
+      padding: 30px 0 1030px; }
+  #container .course3 {
+    background: transparent url("../../images/reactjs/course-bg3.jpg") no-repeat scroll center center;
+    margin: 40px 0; }
+    #container .course3 .wrap {
+      background: transparent url("../../images/reactjs/disc2.png") no-repeat scroll center 200px;
+      padding: 30px 0 30px; }
+    #container .course3 .form {
+      margin: 1015px 0 0 0; }
+      #container .course3 .form input {
+        width: 281px;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        background: none;
+        font-size: 24px;
+        font-family: robotolight;
+        color: #fff;
+        font-weight: normal;
+        padding: 6px 0 9px 25px;
+        margin: 14px 40px 0 0; }
+      #container .course3 .form .mail {
+        width: 324px;
+        margin: 14px 35px 0 0; }
+      #container .course3 .form button {
+        background: url("../../images/reactjs/check.png") no-repeat 15px center #7eca0d;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 14px 0 14px 20px;
+        cursor: pointer;
+        position: relative;
+        top: -5px;
+        width: 280px; }
+  #container .result .title {
+    font-size: 40px;
+    font-family: roboto_slabbold;
+    color: #2d3743;
+    text-align: center;
+    margin: 60px 0 25px 0;
+    font-weight: normal; }
+    #container .result .title span {
+      color: #fff;
+      display: inline-block;
+      background: #007cc0;
+      padding: 6px 15px;
+      font-family: roboto_slabbold; }
+  #container .result .wrap_result, #container .result .wrap_result_two {
+    overflow: hidden;
+    margin: 70px 0 30px; }
+    #container .result .wrap_result .result_block, #container .result .wrap_result_two .result_block {
+      float: left;
+      width: 270px;
+      text-align: center; }
+      #container .result .wrap_result .result_block p, #container .result .wrap_result_two .result_block p {
+        font-size: 20px;
+        font-family: robotolight; }
+    #container .result .wrap_result .center, #container .result .wrap_result_two .center {
+      margin: 0 75px; }
+  #container .result .wrap_result_two {
+    width: 650px;
+    margin: 0 auto; }
+    #container .result .wrap_result_two .result_block {
+      width: 300px;
+      margin: 0 50px 0 0; }
+    #container .result .wrap_result_two .result_block:last-child {
+      margin: 0; }
+  #container .result .block {
+    overflow: hidden;
+    margin: 0 0 20px 0; }
+    #container .result .block img {
+      float: left;
+      margin: 0 0 0 50px; }
+    #container .result .block span {
+      font-size: 50px;
+      color: #007fbd;
+      font-family: robotolight;
+      display: block;
+      float: left;
+      margin: -8px 15px 0 25px; }
+      #container .result .block span .slash {
+        margin: 0 0 0 -10px;
+        display: inline-block;
+        float: none; }
+    #container .result .block p {
+      margin: 0 0 0 204px; }
+  #container .result .one p {
+    margin-top: 15px; }
+  #container .result .two span {
+    margin: 12px 15px 0 25px; }
+  #container .result .two img {
+    margin-top: 22px; }
+  #container .result .three span {
+    margin: 43px 15px 0 25px; }
+  #container .result .three img {
+    margin-top: 50px; }
+  #container .result .four span {
+    margin: 12px 15px 0 25px; }
+  #container .result .four img {
+    margin-top: 18px; }
+  #container .result .five span {
+    margin: 63px 15px 0 25px; }
+  #container .result .five img {
+    margin-top: 65px; }
+  #container .author {
+    background: url("../../images/reactjs/author-bg.jpg") center no-repeat;
+    overflow: hidden; }
+    #container .author .title {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      color: #fff;
+      text-align: center;
+      padding: 38px 0 25px 0;
+      font-weight: normal; }
+    #container .author img {
+      float: left;
+      margin: -68px 0 0 -20px; }
+    #container .author .text {
+      margin: 60px 0 0 500px; }
+      #container .author .text .title_author {
+        font-size: 55px;
+        line-height: 69px;
+        color: #fff;
+        font-family: robotoblack; }
+      #container .author .text p {
+        font-family: robotolight;
+        color: #fff; }
+  #container .price .title {
+    font-size: 40px;
+    font-family: roboto_slabbold;
+    color: #2d3743;
+    text-align: center;
+    margin: 60px 0 25px 0;
+    font-weight: normal; }
+    #container .price .title span {
+      color: #fff;
+      display: inline-block;
+      background: #007cc0;
+      padding: 6px 15px;
+      font-family: roboto_slabbold; }
+  #container .price .steps {
+    overflow: hidden;
+    margin: 40px 0; }
+    #container .price .steps .step {
+      width: 200px;
+      float: left;
+      text-align: center;
+      position: relative;
+      margin: 0 53px 0 0; }
+      #container .price .steps .step p {
+        font-size: 20px;
+        font-family: roboto_slabregular; }
+    #container .price .steps .step:before {
+      background: url("../../images/reactjs/arrow.png") right center no-repeat;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: -40px;
+      top: 40px;
+      content: ""; }
+    #container .price .steps .step:last-child:before {
+      background: none; }
+    #container .price .steps .step:last-child {
+      margin: 0; }
+  #container .garanty {
+    text-align: center; }
+    #container .garanty img {
+      margin: 20px 0 20px 0; }
+    #container .garanty .title {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      color: #2d3743;
+      text-align: center;
+      margin: 0 0 25px 0;
+      font-weight: normal; }
+    #container .garanty p a {
+      color: #0081e4;
+      text-decoration: underline; }
+    #container .garanty p a:hover {
+      text-decoration: none; }
+  #container .faq {
+    margin: 60px 0 0 0; }
+    #container .faq .title {
+      font-size: 40px;
+      font-family: roboto_slabbold;
+      color: #2d3743;
+      text-align: center;
+      margin: 0 0 25px 0;
+      font-weight: normal; }
+    #container .faq .block_faq {
+      margin: 0 0 40px 130px;
+      background: url("../../images/reactjs/faq.png") left top no-repeat;
+      padding: 0 0 0 65px; }
+      #container .faq .block_faq .title_block {
+        font-size: 20px;
+        color: #2d3743;
+        font-family: robotoblack;
+        margin: 0; }
+      #container .faq .block_faq p {
+        font-family: robotolight_italic;
+        margin: 5px 0; }
+  #container .footer {
+    padding: 0 0 30px 0; }
+    #container .footer img {
+      display: block;
+      margin: 0 auto; }
+    #container .footer .foot-logo {
+      text-align: center; }
+      #container .footer .foot-logo span {
+        background: url("../../images/reactjs/triangle.png") left 11px no-repeat;
+        font-size: 29px;
+        color: #009ee3;
+        font-family: roboto_slabregular;
+        padding: 0 0 0 25px; }
+    #container .footer .footer-menu {
+      width: 833px;
+      margin: 25px auto 35px;
+      background: #f5f7f7;
+      text-align: center;
+      padding: 5px 0; }
+      #container .footer .footer-menu a {
+        color: #2d3743;
+        font-size: 16px;
+        font-family: robotolight;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 17px; }
+      #container .footer .footer-menu a:hover {
+        text-decoration: underline; }
+    #container .footer .copy {
+      text-align: center;
+      font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
+#timer table {
+	margin: 10px auto 20px;
+}
+
+#timer td {
+	background: url("../../images/landing/timer_bg.png") no-repeat;
+	height: 90px;
+	color: #c00;
+	text-align: center;
+	width: 104px;
+}
+
+h1.header {
+	background: none !important;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#video {
+	margin: 20px auto 0;
+	text-align: center;
+	width: 705px;
+}
+
+#timer .red {
+	font-size: 200%;
+}
+
+header {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.button_order {
+	background: url("../../images/reactjs/check.png") no-repeat 15px center #7eca0d;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	margin: 20px auto;
+	color: #fff;
+	padding: 14px 0 14px 25px;
+	cursor: pointer;
+	width: 280px; }
+
+.button_order:hover {
+	background-color: #aaee00;
+}
+
+.ac {
+	text-align: center;
+}
+
+.ac p {
+	font-size: 200% !important;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.red {
+	color: #c00;
+}
+
+.ac .title span {
+	background-color: #c00 !important;
+}

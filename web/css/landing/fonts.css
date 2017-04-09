@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2.html') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff'),
+         url('roboto-light-webfont.ttf.html') format('truetype'),
+         url('roboto-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2.html') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf.html') format('truetype'),
+         url('roboto-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('roboto-black-webfont.woff2.html') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff'),
+         url('roboto-black-webfont.ttf.html') format('truetype'),
+         url('roboto-black-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2.html') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff'),
+         url('roboto-medium-webfont.ttf.html') format('truetype'),
+         url('roboto-medium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2.html') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff'),
+         url('roboto-bold-webfont.ttf.html') format('truetype'),
+         url('roboto-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('roboto-lightitalic-webfont.woff2.html') format('woff2'),
+         url('roboto-lightitalic-webfont.woff') format('woff'),
+         url('roboto-lightitalic-webfont.ttf.html') format('truetype'),
+         url('roboto-lightitalic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold-webfont.woff2.html') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff'),
+         url('bebasneue_bold-webfont.ttf.html') format('truetype'),
+         url('bebasneue_bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue_regular-webfont.woff2.html') format('woff2'),
+         url('bebasneue_regular-webfont.woff') format('woff'),
+         url('bebasneue_regular-webfont.ttf.html') format('truetype'),
+         url('bebasneue_regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

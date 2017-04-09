@@ -1,0 +1,523 @@
+@font-face {
+	font-family: roboto; 
+	src: url("RobotoCondensed-Light.woff");
+}
+
+@font-face {
+	font-family: rodchenko; 
+	src: url("RodchenkoCondC.woff");
+}
+
+body {
+	color: #3c494b;
+	font-family: roboto;
+	margin: 0;
+	padding: 40px 0 0;
+}
+
+a {
+	color: #17a2d9;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	font-size: 120%;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+header {
+	text-align: center;
+}
+
+.header {
+	color: #ea5901;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.header, .header_red, .header_black, .header_white, .header_orange, .bonus h1 {
+	font-family: rodchenko;
+	font-size: 210%;
+	text-align: center;
+}
+
+.header_red {
+	color: #ea5901;
+}
+
+.header_black {
+	color: #3c494b;
+}
+
+.header_white {
+	color: #fff;
+}
+
+.header_orange {
+	color: #f39100;
+}
+
+.gray {
+	background: url("../../images/wp/gray_top.png") no-repeat top center #efefef; 
+}
+
+.no_arrow_gray {
+	background-color: #efefef;
+}
+
+.white {
+	background: url("../../images/wp/white_top.png") no-repeat top center #fff; 
+}
+
+.gray > div, .white > div {
+	padding: 20px 0;
+}
+
+.gray > div, .white > div, .no_arrow > div, .no_arrow_gray > div, #cms > div, .lessons > div, #best_course > div, footer > div {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#menu {
+	background-color: #3c494b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#menu div {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#menu a {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-size: 120%;
+	margin: 0 11px;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	background: url("../../images/wp/menu_active.png") no-repeat bottom center;
+}
+
+#video {
+	height: 359px;
+	margin: 0 auto;
+	width: 474px;
+}
+
+#button_order {
+	display: none;
+}
+
+.button_order, .button_order_top {
+	background: url("../../images/wp/button_order.png") no-repeat;
+	color: #fff;
+	display: inline-block;
+	font-size: 250%;
+	font-weight: bold;
+	height: 65px;
+	margin: 20px auto;
+	padding-top: 7px;
+	text-align: center;
+	text-decoration: none;
+	width: 354px;
+}
+
+.button_order:hover, .button_order_top:hover {
+	background: url("../../images/wp/button_order_active.png") no-repeat;
+}
+
+#author img {
+	float: right;
+}
+
+#variants table td {
+	padding: 10px 30px;
+}
+
+#cms {
+	background: url("../../images/wp/bg_cms.png") no-repeat center center #0a1110;
+	color: #fff;
+	height: 427px;
+}
+
+#cms h1 {
+	margin-top: 0;
+}
+
+#cms > div {
+	background: url("../../images/wp/bg_cms_bottom.png") no-repeat bottom center;
+	padding-top: 17px;
+}
+
+#cms table {
+	margin-left: 300px;
+}
+
+#cms .first p {
+	background: url("../../images/wp/circle.png") no-repeat;
+	display: inline-block;
+	height: 28px;
+	padding-left: 5px;
+	text-align: center;
+	width: 23px;
+}
+
+#cms td {
+	padding: 5px 20px 5px 0;
+}
+
+#cms p {
+	font-size: 120%;
+	margin: 0;
+}
+
+#wp td {
+	padding: 0 20px;
+}
+
+#wp p {
+	margin: 10px 0;
+}
+
+#course, #course_bonus {
+	text-align: center;
+	width: 100%;
+}
+
+#course {
+	background: url("../../images/wp/bg_course_bottom.png") repeat-x bottom;
+}
+
+#course h1, #course p {
+	margin: 20px auto;
+	width: 990px;
+}
+
+#course img {
+	width: 990px;
+}
+
+#course_bonus {
+	background: url("../../images/wp/bg_course_bonus_bottom.png") repeat-x bottom;
+}
+
+.lesson {
+	margin: 10px 0;
+}
+
+.lessons .title {
+	color: #f39100;
+	font-weight: bold;
+}
+
+.lessons div div:nth-child(odd) img {
+	float: left;
+	margin-right: 10px;
+}
+
+.lessons div div:nth-child(even) img {
+	float: right;
+	margin-left: 10px;
+}
+
+.lessons {
+	background: url("../../images/wp/bg_lessons_bottom.png") repeat-x bottom;
+	width: 100% !important;
+}
+
+#lessons_2 {
+	background: url("../../images/wp/bg_lessons_2_bottom.png") repeat-x bottom;
+}
+
+#lessons_3 {
+	background: none !important;
+}
+
+.bonus {
+	margin-bottom: 30px;
+}
+
+.bonus h1 {
+	margin: 0 0 10px;
+}
+
+.bonus .color {
+	text-align: center;
+}
+
+.bonus .content {
+	color: #fff;
+	padding-left: 380px;
+	padding-right: 50px;
+	width: 558px;
+}
+
+#bonus_1 .color {
+	color: #fe5f09;
+}
+
+#bonus_2 .color {
+	color: #cf2122;
+}
+
+#bonus_3 .color {
+	color: #f1670e;
+}
+
+#bonus_1 .content {
+	background: url("../../images/wp/bonus_1.png") no-repeat;
+	height: 349px;
+	padding-top: 80px;
+}
+
+#bonus_2 .content {
+	background: url("../../images/wp/bonus_2.png") no-repeat;
+	height: 359px;
+	padding-top: 70px;
+}
+
+#bonus_3 .content {
+	background: url("../../images/wp/bonus_3.png") no-repeat;
+	height: 299px;
+	padding-top: 130px;
+}
+
+#others .title {
+	font-weight: bold;
+}
+
+#others td {
+	padding: 0 10px;
+}
+
+#makeup .title {
+	color: #ff8400;
+}
+
+#php .title {
+	color: #0090da;
+}
+
+#javascript .title {
+	color: #389300;
+}
+
+#kurs .title {
+	color: #78b7d5;
+}
+
+#html5 .title {
+	color: #2d72bf;
+}
+
+#best_course {
+	background: url("../../images/wp/best_course.png") no-repeat top center #f5f6f1;
+	height: 1393px;
+	padding-top: 15px;
+	width: 100%;
+}
+
+#best_course div div {
+	margin-left: 175px;
+	margin-top: 150px;
+	width: 500px;
+}
+
+#best_course p {
+	margin: 30px 0;
+}
+
+.no_arrow_gray img {
+	margin-left: 2px;
+}
+
+#prices img {
+	margin-top: -110px;
+}
+
+#guarantee td {
+	padding: 0 10px;
+}
+
+.checkbox {
+	background: url("../../images/wp/checkbox.png") no-repeat;
+	cursor: pointer;
+	height: 35px;
+	margin: 0 auto 5px;
+	width: 39px;
+}
+
+.active {
+	background: url("../../images/wp/checkbox_active.png") no-repeat;
+}
+
+.order_product {
+	background: url("../../images/wp/bg_order.png") repeat;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+.order_product table {
+	background: url("../../images/wp/arrow_order.png") no-repeat top center;
+	margin: 0 auto;
+	text-align: center;	
+	width: 990px;
+}
+
+.order_product table.first {
+	background: none;
+}
+
+.order_product td {
+	padding: 20px 0 10px;
+}
+
+.order_product p {
+	font-style: italic;
+}
+
+.order_product .price span {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.order_product td:nth-child(2) {
+	width: 300px;
+}
+
+#total, #price {
+	font-weight: bold;
+	text-align: center;
+}
+
+#price_summa, #price_result {
+	font-size: 150%;
+}
+
+#price_summa {
+	color: #ff2a00;
+	text-decoration: line-through;
+}
+
+#price span {
+	color: #bbc33a;
+}
+
+.question {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.answer {
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+footer {
+	background-color: #3c494b;
+	padding: 15px 0;
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+	margin: 0;
+}
+
+footer a {
+	color: #fff;
+}
+
+#timer table {
+	margin: 10px auto 20px;
+}
+
+#timer td {
+	background: url("../../images/wp/timer_bg.png") no-repeat;
+	height: 90px;
+	color: #c00;
+	text-align: center;
+	width: 104px;
+}
+
+#timer .red {
+	font-size: 200%;
+}
+
+.form_subscribe {
+	background-color: #fbfbfb;
+	border: 1px dashed #c8c8c8;
+	margin: 10px auto;
+	text-align: center;
+	padding: 15px 10px;
+	width: 300px;
+}
+
+.form_subscribe h3 {
+	color: #545d67;
+	margin: 0 0 15px;
+}
+
+.form_subscribe .input {
+	border: 1px solid #c8c8c8;
+	color: #a8a8a8;
+	height: 20px;
+	padding: 5px 10px;
+	width: 200px;
+}
+
+.button_subscribe {
+	border-collapse: collapse;
+	color: #555;
+	cursor: pointer;
+	margin: 15px auto 0;
+}
+
+.button_subscribe:hover {
+	color: #f2fa1c;
+}
+
+.button_subscribe td {
+	padding: 0;
+}
+
+.button_subscribe .center {
+	padding: 0 0 5px;
+}
+
+.bg_center {
+	background: url("../../images/wp/button_subscribe_bg.png") repeat-x;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	font-size: 12pt;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+}

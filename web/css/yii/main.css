@@ -1,0 +1,460 @@
+@font-face {
+	font-family: roboto; 
+	src: url("RobotoCondensed-Light.woff");
+}
+
+body {
+	color: #3c494b;
+	font-family: roboto;
+	margin: 0;
+	padding: 40px 0 0;
+}
+
+a {
+	color: #009ee3;
+}
+
+h1 {
+	color: #c00;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.clear {
+	clear: both;
+}
+
+#timer table {
+	margin: 10px auto 20px;
+}
+
+#timer td {
+	background: url("../../images/yii/timer_bg.png") no-repeat;
+	height: 90px;
+	color: #c00;
+	padding: 1px !important;
+	text-align: center;
+	width: 104px;
+}
+
+#timer .red {
+	font-size: 200%;
+}
+
+.form_subscribe {
+	background-color: #fbfbfb;
+	border: 1px dashed #c8c8c8;
+	margin: 10px auto !important;
+	padding: 15px 10px !important;
+	text-align: center;
+	width: 300px !important;
+}
+
+.form_subscribe h3 {
+	color: #545d67;
+	margin: 0 0 15px;
+}
+
+.form_subscribe .input {
+	border: 1px solid #c8c8c8;
+	color: #222;
+	height: 20px;
+	padding: 5px 10px;
+	width: 200px;
+}
+
+.button_subscribe {
+	border-collapse: collapse;
+	color: #555;
+	cursor: pointer;
+	margin: 15px auto 0;
+}
+
+.button_subscribe:hover {
+	color: #f2fa1c;
+}
+
+.button_subscribe td {
+	padding: 0;
+}
+
+.button_subscribe .center {
+	padding: 0 0 5px;
+}
+
+.bg_center {
+	background: url("../../images/yii/button_subscribe_bg.png") repeat-x;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	font-size: 12pt;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 120%;
+}
+
+.checkbox {
+	background: url("../../images/yii/checkbox.png") no-repeat;
+}
+
+.checkbox_active {
+	background: url("../../images/yii/checkbox_active.png") no-repeat;
+}
+
+#menu {
+	background-color: #dc3b3c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#menu div {
+	padding: 0;
+	width: 806px;
+}
+
+#menu a {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-size: 130%;
+	margin: 11px;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	border-bottom: 1px dashed #fff;
+	margin-bottom: 10px;
+}
+
+.header {
+	color: #c00;
+	text-align: center;
+}
+
+header {
+	background: url("../../images/yii/header.jpg") no-repeat top center;
+	height: 610px;
+	width: 100%;
+}
+
+body > div > div {
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 990px;
+}
+
+body div div > p {
+	margin: 10px auto;
+	text-align: center;
+	width: 650px;
+}
+
+#author {
+	background-color: #eee8ec;
+	font-style: italic;
+	
+}
+
+#author div {
+	background: url("../../images/yii/author.png") no-repeat center left;
+}
+
+#author p {
+	margin: 15px 0 15px 280px;
+}
+
+#what {
+	background: url("../../images/yii/bg_what.png") repeat;
+}
+
+#why {
+	background: url("../../images/yii/bg_why.jpg") no-repeat center center;
+}
+
+#what, #why, #course, #guarantee, #order_info {
+	color: #fff;
+}
+
+#description {
+	background-color: #fed535;
+	color: #454a51;
+}
+
+.h, .h_black, .h_orange {
+	color: #fff;
+	font-size: 200%;
+	margin: 0;
+	text-align: center;
+}
+
+.h {
+	color: #fff;
+}
+
+.h_black {
+	color: #454a51;
+}
+
+.h_orange {
+	color: #f5ae15;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 0 10px;
+}
+
+#why table {
+	width: 620px;
+}
+
+#course {
+	background: url("../../images/yii/bg_course.png") repeat;
+}
+
+#course p {
+	width: auto;
+}
+
+.sep {
+	background: url("../../images/yii/bg_sep.png") no-repeat center center #ffae00;
+	height: 416px;
+	width: 100%;
+}
+
+.lessons, #reviews {
+	background: url("../../images/yii/bg_lessons.png") repeat;
+}
+
+.lessons {
+	padding-top: 20px;
+}
+
+.lessons table, #need table {
+	margin-top: 30px;
+	width: 800px;
+}
+
+.lessons td, #need td {
+	padding-bottom: 20px;
+}
+
+.lessons p {
+	font-style: italic;
+	margin: 0;
+	width: auto;
+}
+
+.lessons .title {
+	font-size: 130%;
+}
+
+.lessons p span {
+	font-weight: bold;
+}
+
+#reviews {
+
+}
+
+#bonus {
+	background: url("../../images/yii/bg_bonus.jpg") no-repeat center center;
+	padding: 20px 0;
+}
+
+#bonus h2 {
+	margin: 20px 0;
+}
+
+#bonus p {
+	color: #fff;
+}
+
+#bonus p:last-child {
+	margin-top: -50px;
+}
+
+#need {
+	background-color: #eee8ec;
+}
+
+#need .title {
+	color: #3797e0;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#need table p {
+	margin: 0;
+}
+
+#need span {
+	font-weight: bold;
+}
+
+#guarantee {
+	background-color: #f7323c;
+}
+
+#price_info, #end {
+	background-color: #eee8ec;
+}
+
+#price_info span {
+	font-weight: bold;
+}
+
+#price_info p {
+	width: 800px;
+}
+
+#end {
+	font-style: italic;
+}
+
+#faq p {
+	margin: 0;
+	text-align: left;
+	width: auto;
+}
+
+#faq .question {
+	font-size: 150%;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#faq .answer {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #3c494b;
+	padding: 15px 0;
+}
+
+footer p {
+	color: #a5afb0;
+	margin: 5px 0;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+}
+
+#order_info {
+	background-color: #223944;
+}
+
+.checkbox {
+	background: url("../../images/yii/checkbox.png") no-repeat;
+	cursor: pointer;
+	height: 28px;
+	padding: 0;
+	width: 28px;
+}
+
+.active {
+	background: url("../../images/yii/checkbox_active.png") no-repeat;
+}
+
+#order_info tr:nth-child(even) td {
+	padding-bottom: 15px;
+}
+
+#order_info tr:nth-child(odd) td:nth-child(2) {
+	padding-right: 100px;
+}
+
+#order_info td p {
+	margin: 0;
+	text-align: center;
+	width: 230px;
+}
+
+#order_info td[colspan="4"] p {
+	width: auto;
+}
+
+#price_summa_desc {
+	color: #728791;
+	font-size: 150%;
+}
+
+#price_summa_desc > span {
+	color: #fff;
+	font-size: 150%;
+	display: block;
+}
+
+#price {
+	color: #94c11a;
+	font-size: 200%;
+}
+
+#price > span {
+	border: 2px solid #98aeb9;
+	font-size: 150%;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+#order_block {
+	margin: 40px 0 20px;
+	text-align: center;
+}
+
+.button_order {
+	background-color: #94c11a;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 40px;
+	margin: 0 auto;
+	font-size: 250%;
+	text-decoration: none;
+}
+
+.button_order:hover {
+	background-color: #c5e66b;
+}
+
+#float {
+	background: url("../../images/yii/float.png") no-repeat;
+	float: right;
+	height: 86px;
+	margin-top: -760px;
+	width: 267px;
+}
+
+#float p {
+	color: #94c11a;
+	font-size: 110%;
+	margin: 0;
+	padding-left: 26px;
+	padding-top: 4px;
+	text-align: center;
+	width: auto;
+}
+
+#float p:nth-child(2) {
+	font-weight: bold;
+}

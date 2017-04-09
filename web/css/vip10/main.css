@@ -1,0 +1,100 @@
+/* Main */
+
+body {
+	background: url("../../images/vip10/bg.png") repeat;
+	font-family: Arial, "Times New Roman";
+	font-size: 13pt;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:active, a:visited {
+	color: #348ec1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 220%;
+}
+
+ul {
+	list-style-image: url("../../images/vip10/check.png");
+	margin: 0;
+	padding-left: 25px;
+}
+
+ul li {
+	padding: 10px 0;
+}
+
+.header {
+	color: #46637d;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.red {
+	color: #c00;
+}
+
+#container {
+	width: 985px;
+}
+
+#container {
+	background-color: #fff;
+	margin: 30px auto;
+	padding: 10px 0;
+}
+
+#container div {
+	padding: 0 60px;
+}
+
+#container .block {
+	background: url("../../images/vip10/block_bottom.png") no-repeat center bottom;
+	padding-bottom: 40px;
+}
+
+/* Timer */
+
+#timer table {
+	margin: 0 auto;
+}
+
+#timer td {
+	background: url("../../images/vip10/timer_bg.png") no-repeat;
+	height: 90px;
+	color: #c00;
+	text-align: center;
+	width: 104px;
+}
+
+#timer .red {
+	font-size: 200%;
+}
+
+
+.button_order {
+	background: url("../../images/vip10/button.png");
+	display: block;
+	height: 72px;
+	margin: 10px auto 0;
+	width: 246px;
+}
+
+.button_order:hover {
+	background: url("../../images/vip10/button_active.png");
+}
